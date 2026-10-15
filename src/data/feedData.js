@@ -1,0 +1,57 @@
+export const seedPosts = [
+  {
+    id: 1,
+    sub: 'technology',
+    user: 'techExplorer',
+    time: '2h',
+    title: 'What technology are you most excited about this year?',
+    text: 'A place to share ideas, discoveries, and useful projects.',
+    img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1100&q=80',
+    score: 1284,
+    comments: [{ u: 'pixelFox', t: 'There are so many interesting directions right now.' }],
+  },
+  {
+    id: 2,
+    sub: 'gaming',
+    user: 'BlockMaster',
+    time: '4h',
+    title: 'I finally finished my biggest build',
+    text: 'After weeks of building, the result is finally ready.',
+    img: 'https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=1100&q=80',
+    score: 947,
+    comments: [],
+  },
+  {
+    id: 3,
+    sub: 'AskReddit',
+    user: 'curious_mind',
+    time: '6h',
+    title: 'What is one small thing that instantly improves your day?',
+    text: "Let's hear your best answers.",
+    img: null,
+    score: 642,
+    comments: [
+      { u: 'northstar', t: 'A walk outside and some music.' },
+      { u: 'coffee_addict', t: 'Definitely a good breakfast.' },
+    ],
+  },
+  {
+    id: 4,
+    sub: 'interestingasfuck',
+    user: 'orbitWatcher',
+    time: '8h',
+    title: 'A strange view from above the clouds',
+    text: 'Sometimes the world looks completely different from up there.',
+    img: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=1100&q=80',
+    score: 2105,
+    comments: [],
+  },
+];
+
+export const communities = [
+  ['AskReddit', '59.8M'],
+  ['technology', '18.4M'],
+  ['gaming', '38.1M'],
+  ['Minecraft', '9.2M'],
+  ['interestingasfuck', '12.7M'],
+];
